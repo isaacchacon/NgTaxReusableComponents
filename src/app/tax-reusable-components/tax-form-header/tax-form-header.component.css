@@ -1,0 +1,25 @@
+	.InlineDiv{
+			display:inline-block;
+		}
+		
+		.SpTaxTextbox{
+			border: 1px solid black;
+		}
+		.SpTaxFormTitle{
+			border-bottom:1px solid black;
+			padding-right:16px;
+		}
+		.SpTaxFormTitle h3{
+			margin-top:5px;
+			margin-bottom:5px;
+			font-size:1.7em;
+			font-weight:bold;
+		}
+		.SpTaxFormId{
+			margin-top:7px;
+			padding-right:16px;
+		}
+		.SpTaxFormId input{
+			width:90px;
+			padding-right:2px;
+		}

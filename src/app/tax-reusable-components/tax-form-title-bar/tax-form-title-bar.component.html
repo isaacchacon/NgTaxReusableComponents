@@ -1,0 +1,19 @@
+<div class="SpTaxTitleBar row">
+	<div class="InlineDiv"
+		[class.col-md-4]="thirdTitle" [class.col-md-6]="!thirdTitle">
+		<h4>
+			{{firstTitle}}
+		</h4>
+	</div>
+	<div  class="InlineDiv" *ngIf="secondTitle"
+		[class.col-md-4]="thirdTitle" [class.col-md-6]="!thirdTitle">
+		<h4>
+			{{secondTitle}}
+		</h4>
+	</div>
+	<div  *ngIf="thirdTitle" class="InlineDiv col-md-4" >
+		<h4>
+			{{thirdTitle}}
+		</h4>
+	</div>
+</div>

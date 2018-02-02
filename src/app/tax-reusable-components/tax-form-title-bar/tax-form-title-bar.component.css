@@ -1,0 +1,22 @@
+	.InlineDiv{
+			display:inline-block;
+		}
+
+.SpTaxTitleBar{
+			border-top:1px solid black;
+			background-color: #810124;
+			color:white;
+			padding: 3px 0px 3px 0px;
+			margin-right:0px;
+			margin-left:0px;
+		}
+		.SpTaxTitleBar div{
+			margin: 0px 0px 0px 0px;
+			padding: 0px 0px 0px 0px;
+		}
+		.SpTaxTitleBar h4{
+			margin: 0px 0px 0px 0px;
+			padding-left:10px;
+			font-weight:bold;
+			font-size:1.7em;
+		}
